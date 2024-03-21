@@ -1,0 +1,111 @@
+@media (max-width: 992px) {
+    .slidebar {
+        background-color: white;
+        backdrop-filter: blur(10px);
+    }
+
+    .hero-text h1 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .hero-slider img {
+        height: 70vh !important;
+    }
+
+    #about .row {
+        flex-direction: column-reverse;
+    }
+
+    .about-img img {
+        padding-bottom: 0.5rem;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+
+    .counter-section {
+        padding-top: 4rem;
+        padding-bottom: 3rem;
+    }
+
+    .test-text p {
+        max-width: 90%;
+    }
+
+    .swiper-button-next {
+        margin-left: 10rem;
+    }
+
+    .contact-head {
+        padding-top: 0rem;
+        padding-bottom: 1rem;
+    }
+
+    .footer-wrapper>div {
+        padding: 0 3.125rem;
+    }
+
+}
+
+@media (max-width: 578px) {
+    .hero-sec {
+        margin-top: 4rem;
+    }
+
+    .hero-text {
+        display: none;
+    }
+
+    .wrapper {
+        padding: 5rem 1rem;
+    }
+
+    .hero-slider img {
+        height: 45vh !important;
+    }
+
+    .about-text h1 {
+        font-size: 2.5rem;
+        padding-top: 1rem;
+    }
+
+    .about-img img {
+        height: 43vh !important;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+    }
+
+    .counter-head {
+        padding: 1rem 0;
+    }
+
+    .counter-head h1 {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+
+    .contact-head .roadmap iframe{
+        width: 120px;
+    }
+}
+
+@media (max-width: 351px) {
+    .choose-card .choose-head h4 {
+        font-weight: 600;
+    }
+
+    .event-card {
+        height: 765px;
+    }
+
+    .event-text {
+        height: 455px;
+    }
+
+}
